@@ -73,7 +73,7 @@ inline int64_t FutureDrift(int64_t nTime) { return nTime + DRIFT; }
 /** "reject" message codes **/
 static const unsigned char REJECT_INVALID = 0x10;
 
-inline int64_t GetMNCollateral(int nHeight) { return nHeight>=16000 ? 8888 : 3000; }
+inline int64_t GetMNCollateral(int nHeight) { return nHeight>=21000 ? 30000 : 8888; }
 
 extern CScript COINBASE_FLAGS;
 extern CCriticalSection cs_main;
