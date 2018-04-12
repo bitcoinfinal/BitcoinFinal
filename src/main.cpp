@@ -1388,6 +1388,7 @@ int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, i
     {
         nSubsidy = 30 * COIN;
 	
+	}
 	
     return nSubsidy + nFees;
 }
